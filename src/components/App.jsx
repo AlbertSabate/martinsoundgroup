@@ -1,9 +1,14 @@
 import React from 'react'
+import { Container } from 'reactstrap';
+import AlberTenez from './albertenez/albertenez'
+
+import './App.sass'
+
 
 const App = () => (
-  <div>
-    MSG
-  </div>
+  <Container fluid>
+    <AlberTenez />
+  </Container>
 )
 
 export default App

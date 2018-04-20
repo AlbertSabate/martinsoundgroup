@@ -1,6 +1,7 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
+@import '../../../node_modules/@fortawesome/fontawesome-free-webfonts/scss/variables'
 @import maps
 
 $lightGreyColor: #C6C6C6
@@ -18,8 +19,8 @@ $pastaSquare: #fff4c6
 $boxBackground: #F9F9F9
 
 // Colors
-$color1: #222
-$color2: #FFF
+$color1: #FFF
+$color2: #222
 $color3: #0F67A3
 
 // Global
@@ -28,7 +29,7 @@ $brandColor1: $color3
 $linkColor: $color3
 
 // Bootstrap
-$theme-colors: ("primary": $color4, "secondary": $color5)
+$theme-colors: ("primary": $color3)
 $titleFont: Quicksand, 'Open Sans', sans-serif
 $font-family-base: Quicksand, 'Open Sans', sans-serif
 $border-radius: 1px
@@ -48,44 +49,5 @@ $btn-primary-border: $btn-primary-bg
 $btn-primary-text-hover: $btn-primary-border
 $btn-primary-shadow: 0 0 0 2px rgba($color3, .5)
 
-$btn-secondary-color: $color3
-$btn-secondary-bg: $color5
-$btn-secondary-border: $btn-secondary-bg
-$btn-secondary-text-hover: $btn-secondary-border
-$btn-secondary-shadow: 0 0 0 2px rgba($color5, .5)
-
-
 // FA
 $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free-webfonts/webfonts'
-
-// Nav
-$navBgColor: $color1
-$navShadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28)
-
-// Header
-$headerLayoutTransparencyColor: rgba($color1, .6)
-$headerTxtColor: $color3
-
-// About
-$aboutImgShadow: 0 3px 12px .06px rgba(0, 0, 0, .24)
-$aboutBorderColor: rgba($color1, .05)
-
-// Skills
-$skillsBgColor: $color4
-$skillsTxtColor: $color2
-
-// Portfolio
-
-// Contact
-$contactBgColor: $color1
-$contactTxtColor: $color4
-$contactBoxBorderColor: rgba($color3, .25)
-
-// Form Contact
-
-// Footer
-$footerBgColor: $color1
-$footerTxtColor: $color2
-$socialIconBgColor: $color4
-$socialIconTxtColor: $color3
-$socialIconTxtColorHover: $color1
