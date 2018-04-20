@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "document": false,
+    "window": false,
+    "moment": false
+  },
+  "rules": {
+    "semi": ["off"],
+    "react/prefer-stateless-function": ["off"],
+    "react/forbid-prop-types": ["off"]
+  }
+}

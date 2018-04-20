@@ -1,0 +1,64 @@
+{
+  "name": "martinsoundgroup",
+  "version": "1.0.0",
+  "description": "Official Martin Sound Group",
+  "main": "src/app.js",
+  "author": "Albert Sabaté",
+  "license": "MIT",
+  "homepage": "https://martinsoundgroup.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertSabate/martinsoundgroup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbertSabate/martinsoundgroup/issues",
+    "email": "albert@sabatemartinez.com"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --progress --colors --env=development",
+    "dev": "webpack --env=development",
+    "build": "webpack --env=production"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.5",
+    "babel-polyfill": "v7.0.0-beta.3",
+    "bootstrap": "^4.0.0",
+    "moment": "^2.22.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-transition-group": "^2.3.0",
+    "reactstrap": "^5.0.0",
+    "smoothscroll-polyfill": "^0.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "v7.0.0-beta.3",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "v7.0.0-beta.3",
+    "babel-preset-react": "v7.0.0-beta.3",
+    "babel-preset-stage-2": "v7.0.0-beta.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.1.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.8.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
